@@ -4,7 +4,7 @@ A program that given a number as standard input, prints out a range in which the
 
 ## Author
 
-* [@smslash](https://github.com/smslash)
+* [@fahdaguenouz](https://github.com/fahdaguenouz)
 
 ## Objectives
 
