@@ -64,13 +64,14 @@ In order for auditors to test your program, you will have to follow the next ste
 
 - write an **executable** shell script named `script.sh` containing the command(s) to run your program, **from the root folder of the provided tester** (see below where to find it)
 
-Here is a following example of the script, assuming that the program is called `solution` and was written in JS(Javascript):
+Here is a following example of the script, assuming that the program is called `solution` and was written in Go lang:
 
 ```bash
 #!/bin/sh
 # We assume that we are on the root folder, so we have to enter the
-# student folder in order to run the `solution.js` file
-node ./student/solution.js
+# student folder in order to run the `main.go` file
+go run ./student/main.go
+
 ```
 
 You can choose in which language you want to build your program.
